@@ -11,10 +11,11 @@
   <body>
     
     <div class="headline"><p> Welcome To The Rock Paper Scissors Game! </p></div>
+   
 
     <div class="button-container">
 
-    <button class="rockButton" 
+    <button class="rockButton" title="Click to choose Rock."
     onclick="
        const randomNumber = Math.random();
        console.log(randomNumber);
@@ -43,7 +44,8 @@
       alert(`You picked rock. Computer picked ${compMove}. ${result}`);
     "> Rock </button>
 
-    <button class="paperButton" onclick="
+    <button class="paperButton" title="Click to choose Paper."
+    onclick=" 
     
        randomNumber = Math.random();
        console.log(randomNumber);
@@ -72,7 +74,7 @@
       alert(`You picked paper. Computer picked ${compMove}. ${result}`);
     "> Paper </button>
 
-    <button class="scissorsButton"
+    <button class="scissorsButton" title="Click to choose Scissors."
     onclick="
     
       randomNumber = Math.random();
