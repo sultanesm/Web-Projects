@@ -9,7 +9,7 @@ p{
   display: flex;
   width: 500px;            
   height: 80vh;           
-  margin: 0 auto;          /* yatayda tam ortala */
+  margin: 0 auto;
 }
 
 .button-container {
@@ -64,4 +64,5 @@ body{
   padding-bottom: 9px;
   
   
+
 }
