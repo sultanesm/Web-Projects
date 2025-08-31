@@ -1,0 +1,67 @@
+p{
+  font-size: 80px;
+  text-align: center;
+  color: rgb(82, 42, 33);
+
+}
+
+.headline {
+  display: flex;
+  width: 500px;            
+  height: 80vh;           
+  margin: 0 auto;          /* yatayda tam ortala */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; 
+  background-color: bisque;
+}
+
+body{
+  background-color: bisque;
+}
+
+.rockButton{
+  
+  width: 140px;
+  display: inline-block;
+  font-size: 20px;
+  border: none;
+  background-color: rgb(76, 44, 16);
+  color:rgb(249, 249, 249);
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  
+  
+}
+.paperButton{
+  width: 140px;
+  display: inline-block;
+  font-size: 20px;
+  border: none;
+  background-color: rgb(68, 87, 111);
+  color:rgb(249, 249, 249);
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  
+  
+}
+.scissorsButton{
+  width: 140px;
+  display: inline-block;
+  font-size: 20px;
+  border: none;
+  background-color: rgb(54, 88, 66);
+  color:rgb(249, 249, 249);
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  
+  
+}
