@@ -9,7 +9,7 @@ p{
   display: flex;
   width: 500px;            
   height: 80vh;           
-  margin: 0 auto;
+  margin: 0 auto;         
 }
 
 .button-container {
@@ -34,9 +34,8 @@ body{
   padding-right: 30px;
   padding-top: 9px;
   padding-bottom: 9px;
-  
-  
 }
+
 .paperButton{
   width: 140px;
   display: inline-block;
@@ -48,9 +47,11 @@ body{
   padding-right: 30px;
   padding-top: 9px;
   padding-bottom: 9px;
-  
-  
+
 }
+
+
+
 .scissorsButton{
   width: 140px;
   display: inline-block;
@@ -64,5 +65,16 @@ body{
   padding-bottom: 9px;
   
   
-
 }
+
+
+button:hover{
+opacity: 70%;
+transition-duration: 0.3s;
+}
+
+
+button:active{
+opacity:90%;
+}
+
